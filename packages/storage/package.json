@@ -1,0 +1,20 @@
+{
+  "name": "@max-summary/storage",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b --force"
+  },
+  "dependencies": {
+    "@max-summary/shared-types": "workspace:*",
+    "bullmq": "^5.61.2",
+    "ioredis": "^5.8.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.6"
+  }
+}

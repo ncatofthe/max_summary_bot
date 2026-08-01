@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared-types" },
+    { "path": "./packages/core" },
+    { "path": "./packages/summarizer" },
+    { "path": "./packages/integrations-max" },
+    { "path": "./packages/storage" },
+    { "path": "./packages/observability" },
+    { "path": "./apps/bot-gateway" },
+    { "path": "./apps/api" },
+    { "path": "./apps/worker" }
+  ]
+}

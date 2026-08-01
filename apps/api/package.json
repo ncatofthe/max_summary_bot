@@ -1,0 +1,19 @@
+{
+  "name": "@max-summary/api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -b",
+    "typecheck": "tsc -b --force"
+  },
+  "dependencies": {
+    "@max-summary/core": "workspace:*",
+    "@max-summary/storage": "workspace:*",
+    "@max-summary/shared-types": "workspace:*",
+    "bullmq": "^5.61.2",
+    "fastify": "^5.6.1"
+  }
+}

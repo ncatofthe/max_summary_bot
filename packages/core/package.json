@@ -1,0 +1,14 @@
+{
+  "name": "@max-summary/core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b --force"
+  },
+  "dependencies": {
+    "@max-summary/shared-types": "workspace:*"
+  }
+}

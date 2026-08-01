@@ -1,0 +1,16 @@
+{
+  "update_id": "demo-start-1",
+  "message": {
+    "message_id": "msg-start-1",
+    "text": "/start",
+    "chat": {
+      "id": "chat-demo",
+      "type": "private"
+    },
+    "from": {
+      "id": "user-demo",
+      "username": "demo-user",
+      "display_name": "Demo User"
+    }
+  }
+}

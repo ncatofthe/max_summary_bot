@@ -1,0 +1,26 @@
+{
+  "update_id": "demo-file-1",
+  "message": {
+    "message_id": "msg-file-1",
+    "caption": "Месячный отчёт для summary",
+    "chat": {
+      "id": "chat-demo",
+      "type": "private"
+    },
+    "from": {
+      "id": "user-demo",
+      "username": "demo-user",
+      "display_name": "Demo User"
+    },
+    "attachments": [
+      {
+        "id": "attachment-demo-1",
+        "kind": "document",
+        "file_name": "monthly-report.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 284761,
+        "download_url": "https://files.example.com/monthly-report.pdf"
+      }
+    ]
+  }
+}

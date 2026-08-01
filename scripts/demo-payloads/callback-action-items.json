@@ -1,0 +1,20 @@
+{
+  "update_id": "demo-callback-action-items-1",
+  "callback_query": {
+    "id": "cb-action-items-1",
+    "data": "max-summary?action=summary%3Amode%3Aaction-items&documentId=__DOCUMENT_ID__",
+    "button_title": "Action items",
+    "from": {
+      "id": "user-demo",
+      "username": "demo-user"
+    },
+    "message": {
+      "message_id": "msg-summary-demo-2",
+      "chat": {
+        "id": "chat-demo",
+        "type": "private"
+      },
+      "text": "Summary placeholder"
+    }
+  }
+}

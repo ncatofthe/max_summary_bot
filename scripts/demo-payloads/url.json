@@ -1,0 +1,23 @@
+{
+  "update_id": "demo-url-1",
+  "message": {
+    "message_id": "msg-url-1",
+    "text": "https://example.com/investor-update.pdf",
+    "chat": {
+      "id": "chat-demo",
+      "type": "private"
+    },
+    "from": {
+      "id": "user-demo",
+      "username": "demo-user",
+      "display_name": "Demo User"
+    },
+    "entities": [
+      {
+        "type": "url",
+        "offset": 0,
+        "length": 37
+      }
+    ]
+  }
+}

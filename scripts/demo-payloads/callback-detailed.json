@@ -1,0 +1,20 @@
+{
+  "update_id": "demo-callback-detailed-1",
+  "callback_query": {
+    "id": "cb-detailed-1",
+    "data": "max-summary?action=summary%3Amode%3Adetailed&documentId=__DOCUMENT_ID__",
+    "button_title": "Подробно",
+    "from": {
+      "id": "user-demo",
+      "username": "demo-user"
+    },
+    "message": {
+      "message_id": "msg-summary-demo-1",
+      "chat": {
+        "id": "chat-demo",
+        "type": "private"
+      },
+      "text": "Summary placeholder"
+    }
+  }
+}

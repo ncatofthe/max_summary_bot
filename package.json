@@ -1,0 +1,24 @@
+{
+  "name": "max-summary-bot",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter @max-summary/bot-gateway --filter @max-summary/api --filter @max-summary/worker dev",
+    "dev:bot-gateway": "pnpm --filter @max-summary/bot-gateway dev",
+    "dev:api": "pnpm --filter @max-summary/api dev",
+    "dev:worker": "pnpm --filter @max-summary/worker dev",
+    "build": "tsc -b",
+    "typecheck": "tsc -b --force",
+    "clean": "tsc -b --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "update_id": "demo-plain-text-1",
+  "message": {
+    "message_id": "msg-plain-1",
+    "text": "Собери короткую выжимку из этого текста: продукт выходит в beta через две недели, критический риск в интеграции с SSO, а команде нужно зафиксировать action items по запуску и поддержке.",
+    "chat": {
+      "id": "chat-demo",
+      "type": "private"
+    },
+    "from": {
+      "id": "user-demo",
+      "username": "demo-user",
+      "display_name": "Demo User"
+    }
+  }
+}
