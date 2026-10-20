@@ -7,7 +7,7 @@
 
 Демо summary-бота для мессенджера MAX: `bot-gateway` (webhook), `api`, `worker`; режимы пересказа документов и ссылок.
 
-Карточка проекта: `~/Vaults/Main/20 Проекты/max-summary-bot.md`.
+Карточка проекта — в `~/Vaults/Main/20 Проекты/` (та, где `путь: ~/Code/personal/max-summary-bot`).
 
 ## Команды
 
